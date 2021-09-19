@@ -1,0 +1,78 @@
+1. Create a folder called git-basic
+$ mkdir git-basic
+
+2. cd into the git-basic folder
+$ cd git-basic
+
+3. Create a file called first.txt
+$ touch first.txt
+
+4. Initialize an empty git repository
+$ git init .
+Initialized empty Git repository in D:/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/git-basic/.git/
+
+5. Add first.txt to the staging area
+$ git add .
+
+6. Commit with the message "adding first.txt"
+$ git commit -m "adding first.txt"
+[master (root-commit) ab4a2b8] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/git-basic (master)
+$ git remote add origin https://github.com/immanuel3333/TA-Git.git
+
+7. Check out your commit with git log
+$ git log
+commit ab4a2b8f4a7d9ce8acd7c7093019a22db4b8bacd (HEAD -> master)
+Author: immanuel3333 <immanuel.siburian80@gmail.com>
+Date:   Sun Sep 19 20:14:49 2021 +0700
+
+    adding first.txt
+
+8. Create another file called second.txt
+$ touch second.txt
+
+9. Add second.txt to the staging area
+$ git add .
+
+10. Commit with the message "adding second.txt"
+$ git commit -m "adding second.txt"
+[master a8f3892] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+11. Remove the first.txt file
+$ rm first.txt
+
+12. Add this change to the staging area
+$ add .
+bash: add: command not found
+
+13. Commit with the message "removing first.txt"
+$ git commit -m"removing first.txt"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+14. Check out your commits using git log
+$ git log
+commit a8f389211eff66d22e962091c136f4eee322de35 (HEAD -> master)
+Author: immanuel3333 <immanuel.siburian80@gmail.com>
+Date:   Sun Sep 19 20:16:06 2021 +0700
+
+    adding second.txt
+
+commit ab4a2b8f4a7d9ce8acd7c7093019a22db4b8bacd
+Author: immanuel3333 <immanuel.siburian80@gmail.com>
+Date:   Sun Sep 19 20:14:49 2021 +0700
+
+    adding first.txt
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/git-basic (master)
+$

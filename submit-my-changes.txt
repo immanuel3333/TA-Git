@@ -1,0 +1,51 @@
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git (master)
+$ git clone https://github.com/impactbyte/tech4impact-students-bio.git
+Cloning into 'tech4impact-students-bio'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git (master)
+$ git branch immanuel-julius-adik-putra-siburian
+fatal: Not a valid object name: 'master'.
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git (master)
+$ cd tech4impact-students-bio
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (master)
+$ git branch immanuel-julius-adik-putra-siburian
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (master)
+$ git checkout immanuel-julius-adik-putra-siburian
+Switched to branch 'immanuel-julius-adik-putra-siburian'
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ touch immanueljuliusadikputrasiburian.md
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ printf "Nama Lengkap : David Winalda\nUmur: 27\nPesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang" >>immanueljuliusadikputrasiburian.md
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ git add .
+warning: LF will be replaced by CRLF in immanueljuliusadikputrasiburian.md.
+The file will have its original line endings in your working directory
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ git commit -m "Menambahkan file immanueljuliusadikputrasiburian.md"
+[immanuel-julius-adik-putra-siburian 180ad17] Menambahkan file immanueljuliusadikputrasiburian.md
+ 1 file changed, 3 insertions(+)
+ create mode 100644 immanueljuliusadikputrasiburian.md
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ git push -u origin immanuel-julius-adik-putra-siburian
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to immanuel3333.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)
+$ git push origin immanuel-julius-adik-putra-siburian
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to immanuel3333.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+acer@LAPTOP-QSV4TGHG MINGW64 /d/Kuliah/Tingkat 4/Semester 7/SKILVUL/TA-Git/tech4impact-students-bio (immanuel-julius-adik-putra-siburian)

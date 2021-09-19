@@ -1,0 +1,10 @@
+1. git clean adalah sintaks git yang berfungsi untuk menghapus file yang tidak terlacak dari pohon yang berfungsi
+2. -d berarti menghapus direktori tidak terlacak selain file tidak terlacak.  Jika direktori tidak dilacak dikelola oleh repositori Git yang berbeda, itu tidak dihapus secara default. sedangkan -f adalah force, yakni menghapus akan menghapus direktori secara paksa
+3. git branch <nama branch>
+4. Merge Commit terus memiliki dua perents. Catatan: Tidak ada yang benar atau salah dari salah satu strategi tetapi dengan penggabungan Fast Forward Anda memiliki garis sejarah yang lurus dan dengan recursive merge, itu adalah beberapa garis.
+5. git checkout <nama branch>
+6. Menggunakan git rm
+7. git branch -d <nama branch>
+8. Perintah untuk memberitahu kita apa saja perubahan yang terjadi di antara dua titik referensi GIt.
+9. git reset HEAD <file name>
+10. Ketika ada satu file yang dikerjakan oleh dua orang yang berbeda, dan melakukan commit yang sama pada file tersebut. 

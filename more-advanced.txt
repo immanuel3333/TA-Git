@@ -1,0 +1,7 @@
+1. git reset : Perintah ini memodifikasi indeks (yang disebut "Staging Area "). Atau itu mengubah commit yang ditunjuk oleh branch head saat ini. Perintah ini dapat mengubah riwayat yang ada (dengan mengubah commit yang dirujuk oleh branch).
+   git revert : Perintah ini membuat commit baru yang membatalkan perubahan dari commit sebelumnya. Perintah ini menambahkan riwayat baru ke proyek (tidak mengubah riwayat yang ada).
+2. git rebase : menerapkan kembali commit di atas branch basis lain
+   git merge : menggabungkan dua atau lebih sejarah pengembangan bersama-sama
+3. git stash pop : membuang simpanan (paling atas, secara default) setelah menerapkannya.
+   git stash apply : meninggalkan di daftar simpanan untuk kemungkinan digunakan kembali nantinya.
+4. editing, deleting, squashing
